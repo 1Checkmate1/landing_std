@@ -5,6 +5,7 @@ const sass = require('gulp-sass')(require('sass'));
 const spritesmith = require('gulp.spritesmith');
 const rimraf = require('rimraf')
 const rename = require('gulp-rename');
+const autoprefixer = require('gulp-autoprefixer');
 
 // Static server
 gulp.task('server', function() {
@@ -87,3 +88,14 @@ gulp.task('watch', function() {
     )
   );
   
+
+
+// Autoprefixer Task
+
+gulp.task('autoprefixer', function(){
+    gulp.src('source/styles/main.scss')
+    .pipe(autoprefixer({
+        browsers: ['last 2 versions']
+    }))
+    .pipe(gulp.dest('build/css/'));
+});
