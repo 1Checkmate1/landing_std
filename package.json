@@ -1,0 +1,31 @@
+{
+  "name": "landing_std",
+  "version": "1.0.0",
+  "description": "This is landing for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhonbutaevAlibek/landing_std.git"
+  },
+  "author": "Zhonbutaev Alibek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhonbutaevAlibek/landing_std/issues"
+  },
+  "homepage": "https://github.com/ZhonbutaevAlibek/landing_std#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp.spritesmith": "^6.12.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "sass": "^1.44.0"
+  }
+}
