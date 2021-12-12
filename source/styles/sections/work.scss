@@ -3,6 +3,10 @@
     color: #fff;
     background-color: #de2b24;
 
+    @media(max-width: 985px){
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
     &__list{
         display: flex;
